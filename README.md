@@ -32,7 +32,7 @@ git-fetch-with-cli = true
 
 环境配置好后开始 rust安装 
 采用MSVC安装工具链
-地址：https://visualstudio.microsoft.com/zhhans/downloads/
+地址：[https://visualstudio.microsoft.com/zhhans/downloads/](https://visualstudio.microsoft.com/zh-hans/downloads/)
 注意 下载的是visual studio工具 (滚动网页到底部)
 
 ![图片1](https://github.com/xjy12345654/Rust_vscode_win_configuration/assets/38834664/5fd2aeca-bf7e-4bd8-ba10-a61932dd34de)
