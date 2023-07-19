@@ -50,4 +50,13 @@ vscode 安装 rust-analyzer 插件
 还需下载Python(3以上即可)  安装 配置环境变量 (有自动配置环境选项) 非常简单  安装第一步 勾选下方 path路径选项
 debugger 
  
+![图片6](https://github.com/xjy12345654/Rust_vscode_win_configuration/assets/38834664/c9c58aa5-e639-4548-9f99-e62d326ea997)
+![图片7](https://github.com/xjy12345654/Rust_vscode_win_configuration/assets/38834664/97b5d585-0d7f-459c-be82-f79122f40a7e)
+![图片8](https://github.com/xjy12345654/Rust_vscode_win_configuration/assets/38834664/2aff869d-ac0e-4f8a-a5bd-3c878f0c7832)
 
+Lldb 对Rust 支持较为友好  会根据 cargo.toml 自动配置 
+选择yes 就可以调试了
+
+注意事项！
+1.如显示 could not xxxxxxx  .dll 说明缺少windowc++环境 下载 Microsoft Visual C++2015-2019 Redistributable(x_64)   64即为64位系统    不推荐32位系统 如是32位 强烈推荐大家重装系统 使用64位系统！
+2.rust项目在vscode中是根目录，不要嵌套其他文件夹。
