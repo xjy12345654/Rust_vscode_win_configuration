@@ -17,7 +17,7 @@ example:
 在自带的Path 路径上加入 %CARGO_HOME%\bin
 
 C 盘用户目录下 （当然可能是C:\Users\xxx(其他英文名称) ）新建.cargo文件夹
-新建 config文件 写入
+新建 config文件(cargo 1.38 版本以上 需要写成config.toml) 写入
 
 [source.crates-io]
 replace-with = 'rsproxy-sparse'
